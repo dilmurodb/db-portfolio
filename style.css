@@ -173,6 +173,24 @@ a {
 
 
 
+
+
+
+
+.tic-tac-toe {
+  margin: 50px;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
 .footer {
   height: 50px;
   display: flex;
