@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <img src="picture.jpg" alt="Логотип" class="logo">
+        <img src="picture.jpg" alt="Логотип" class="logo" onclick="showImage('block')">
         <nav class="nav">
             <ul class="ul">
                 <li onclick="showProjects('block')">Проекты</li>
@@ -79,6 +79,9 @@
         </div>
         <div id="contacts" style="display: none">
             <h1>Место для контактов</h1>
+        </div>
+        <div id="image" style="display: none">
+            <img src="matrix.jpg" alt="Матрица" class="matrix-image"/>
         </div>
     </main>
     <footer class="footer">

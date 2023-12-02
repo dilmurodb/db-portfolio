@@ -42,11 +42,17 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-}
+  }
+  .matrix-image {
+    width: 600px;
+  }
 }
 @media (min-width: 701px) {
   .container12 {
     display: none;
+  }
+  .matrix-image {
+    width: 700px;
   }
 }
 
