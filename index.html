@@ -20,9 +20,9 @@
         <img src="picture.jpg" alt="Логотип" class="logo">
         <nav class="nav">
             <ul class="ul">
-                <li><a href="">Проекты</a></li>
-                <li><a href="">Резюме</a></li>
-                <li><a href="">Контакты</a></li>
+                <li onclick="showProjects('block')">Проекты</li>
+                <li onclick="showResume('block')">Резюме</li>
+                <li onclick="showContacts('block')">Контакты</li>
             </ul>
         </nav>
         <div class="container12">
@@ -43,34 +43,42 @@
             </section> 
         </div>
         <div class="language">
-            <input type="image" src="rus.svg" alt="flag" width="20px">
-            <input type="image" src="gbr.svg" alt="flag" width="20px">
-            <input type="image" src="uzb.svg" alt="flag" width="20px">
+            <img src="rus.svg" alt="Флаг" width="20px">
+            <img src="gbr.svg" alt="Флаг" width="20px">
+            <img src="uzb.svg" alt="Флаг" width="20px">
             <!-- <input type="image" src="deu.svg" alt="flag" width="20px"> -->
         </div>
     </header>
     <main>
-        <h1>Проекты</h1>
-        <h3>Крестики-Нолики</h3>
-        <p>Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p>
-        <div>
-            <a href="https://dilmurodb.github.io/tic-tac/" target="_blank">
-                <i class="fab fa-buromobelexperte fa-7x"></i>
-            </a>
+        <div id="projects">
+            <h1>Проекты</h1>
+            <h3>Крестики-Нолики</h3>
+            <p>Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p>
+            <div>
+                <a href="https://dilmurodb.github.io/tic-tac/" target="_blank">
+                    <i class="fab fa-buromobelexperte fa-7x"></i>
+                </a>
+            </div>
+            <h3>Тривиа игра</h3>
+            <p>Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p>
+            <div>
+                <a href="https://dilmurodb.github.io/trivia/" target="_blank">
+                    <i class="fas fa-book-open fa-7x"></i>
+                </a>
+            </div>
+            <h3>Дополнительное Портфолио</h3>
+            <p>Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p>
+            <div>
+                <a href="https://dilmurodb.github.io/bukharov/index.html"   target="_blank">
+                    <i class="fa-solid fa-briefcase fa-7x"></i>
+                </a>
+            </div>
         </div>
-        <h3>Тривиа игра</h3>
-        <p>Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p>
-        <div>
-            <a href="https://dilmurodb.github.io/trivia/" target="_blank">
-                <i class="fas fa-book-open fa-7x"></i>
-            </a>
+        <div id="resume" style="display: none">
+            <h1>Здесь будет резюме</h1>
         </div>
-        <h3>Дополнительное Портфолио</h3>
-        <p>Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p>
-        <div>
-            <a href="https://dilmurodb.github.io/bukharov/index.html" target="_blank">
-                <i class="fa-solid fa-briefcase fa-7x"></i>
-            </a>
+        <div id="contacts" style="display: none">
+            <h1>Место для контактов</h1>
         </div>
     </main>
     <footer class="footer">
