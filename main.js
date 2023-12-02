@@ -5,6 +5,8 @@ function showResume(block) {
     elem3.style.display = 'none'
     let elem2 = document.getElementById("resume")
     elem2.style.display = block
+    let uncheck = document.getElementById("toggle1")
+    uncheck.checked = false
 }
 
 function showContacts(block) {
@@ -14,6 +16,8 @@ function showContacts(block) {
     elem2.style.display = 'none'
     let elem3 = document.getElementById("contacts")
     elem3.style.display = block
+    let uncheck = document.getElementById("toggle1")
+    uncheck.checked = false
 }
 
 function showProjects(block) {
@@ -23,4 +27,6 @@ function showProjects(block) {
     elem3.style.display = 'none'
     let elem1 = document.getElementById("projects")
     elem1.style.display = block
+    let uncheck = document.getElementById("toggle1")
+    uncheck.checked = false
 }

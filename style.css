@@ -78,7 +78,7 @@ a {
 
 
 /* Hamburger */
-.hamburger1 {
+.buterbrod1 {
   height: 45px;
   margin: 10px;
   display: -ms-grid;
@@ -88,7 +88,7 @@ a {
   z-index: 120;
 }
 
-.hamburger1 div {
+.buterbrod1 div {
   background-color: rgb(61, 61, 61);
   position: relative;
   width: 40px;
@@ -102,19 +102,19 @@ a {
   display: none;
 }
 
-#toggle1:checked + .hamburger1 .top {
+#toggle1:checked + .buterbrod1 .top {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   margin-top: 22.5px;
 }
 
-#toggle1:checked + .hamburger1 .meat {
+#toggle1:checked + .buterbrod1 .meat {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   margin-top: -5px;
 }
 
-#toggle1:checked + .hamburger1 .bottom {
+#toggle1:checked + .buterbrod1 .bottom {
   -webkit-transform: scale(0);
           transform: scale(0);
 }
