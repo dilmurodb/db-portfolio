@@ -66,6 +66,60 @@ a {
 
 
 
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 70px;
+}
+
+
+.resume-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-about-title {
+  width:30%;
+}
+
+.resume-about-content {
+  width:60%;
+}
+
+
+
+.resume-experience {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-experience-title {
+  width: 30%;
+}
+.resume-experience-content {
+  width: 60%;
+}
+
+
+.resume-education {
+  display: flex;
+  justify-content: space-between;
+}
+.resume-education-title {
+  width: 30%;
+}
+.resume-education-content {
+  width: 60%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
