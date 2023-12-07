@@ -53,30 +53,38 @@
         </div>
     </header>
     <main>
-        <div id="image" >
+        <div id="image" class="matrix-image">
             <div class="logo-image">
-                <img src="image.png" alt="Матрица" class="desktop-image"/>
+                <img src="image.png" alt="Рабочий стол" class="desktop-image"/>
             </div>
         </div>
         <div id="projects">
-            <h1>Проекты</h1>
-            <h3>Крестики-Нолики</h3>
-            <p>Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p>
-            <div>
+            <div class="projects-title">
+              <h1>Проекты</h1>  
+            </div>
+            <div class="tic-tac-toe">
+                <h3>Крестики-Нолики</h3>
+                <p>Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p> 
+            </div>
+            <div class="tic-tac-toe-icon">
                 <a href="https://dilmurodb.github.io/tic-tac/" target="_blank">
                     <i class="fab fa-buromobelexperte fa-7x"></i>
                 </a>
             </div>
-            <h3>Тривиа игра</h3>
-            <p>Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p>
-            <div>
+            <div class="trivia">
+               <h3>Тривиа игра</h3>
+                <p>Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p> 
+            </div>
+            <div class="trivia-icon">
                 <a href="https://dilmurodb.github.io/trivia/" target="_blank">
                     <i class="fas fa-book-open fa-7x"></i>
                 </a>
             </div>
-            <h3>Дополнительное Портфолио</h3>
-            <p>Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p>
-            <div>
+            <div class="portfolio">
+               <h3>Дополнительное Портфолио</h3>
+                <p>Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p> 
+            </div>
+            <div class="portfolio-icon">
                 <a href="https://dilmurodb.github.io/bukharov/index.html"   target="_blank">
                     <i class="fa-solid fa-briefcase fa-7x"></i>
                 </a>
@@ -85,8 +93,8 @@
         <div id="resume">
             <div class="resume-header">
                 <div class="resume-name">
-                    <h1>Бухаров Дилмурод</h1>
-                    <h3>Программист-разработчик</h3>
+                    <h1 class="my-name">Бухаров Дилмурод</h1>
+                    <h3 class="profession">Программист-разработчик</h3>
                 </div>
                 <div class="resume-contacts">
                     <h5>(+99891)0101711</h5>
@@ -96,19 +104,19 @@
             </div>
             <hr/>
             <div class="resume-about">
-                <div class="resume-about-title"><h2>Обо мне</h2></div>
+                <div class="resume-about-title"><h2 class="resume-section-title">Обо мне</h2></div>
                 <div class="resume-about-content"><p>Разработчик с трех летним стажем работы на фронт-энд технологиях, с повышенным интересом к изучению новых языков программирования, интеллектуально мотивированный и целеустремленный.</p></div>
             </div>
             <div class="resume-experience">
                 <div class="resume-experience-title">
-                    <h2>Опыт работы</h2>
+                    <h2 class="resume-section-title">Опыт работы</h2>
                 </div>
                 <div class="resume-experience-content">
                     <div>
                         <div>
-                           <h3>Фриланс</h3>
-                            <h6>04/2022 - текущий</h6>
-                            <h6>Разработчик веб-сайтов</h6> 
+                           <h3 class="resume-job-place">Фриланс</h3>
+                            <h6 class="resume-job-duration">04/2022 - текущий</h6>
+                            <h6 class="resume-job-title">Разработчик веб-сайтов</h6> 
                         </div>
                         <div>
                             <ul>
@@ -119,9 +127,9 @@
                     </div>
                     <div>
                         <div>
-                           <h3>IPA Global</h3>
-                            <h6>12/2021 - 04/2022</h6>
-                            <h6>Разработчик фронт-энд</h6> 
+                           <h3 class="resume-job-place">IPA Global</h3>
+                            <h6 class="resume-job-duration">12/2021 - 04/2022</h6>
+                            <h6 class="resume-job-title">Разработчик фронт-энд</h6> 
                         </div>
                         <div>
                             <ul>
@@ -132,9 +140,9 @@
                     </div>
                     <div>
                         <div>
-                           <h3>Фриланс</h3>
-                            <h6>07/2020 - 11/2021</h6>
-                            <h6>Фронт-энд разработчик</h6> 
+                           <h3 class="resume-job-place">Фриланс</h3>
+                            <h6 class="resume-job-duration">07/2020 - 11/2021</h6>
+                            <h6 class="resume-job-title">Фронт-энд разработчик</h6> 
                         </div>
                         <div>
                             <ul>
@@ -147,19 +155,19 @@
             </div>
             <div class="resume-education">
                 <div class="resume-education-title">
-                    <h2>Образование</h2>
+                    <h2 class="resume-section-title">Образование</h2>
                 </div>
                 <div class="resume-education-content">
                     <div>
-                        <h2>НИТУ “Московский Институт Стали и Сплавов“</h2>
-                        <h3>2011 - 2013 Магистратура</h3>
+                        <h2 class="institute">НИТУ “Московский Институт Стали и Сплавов“</h2>
+                        <h3 class="institute">2011 - 2013 Магистратура</h3>
                         <ul>
                             <li>Разработка технологии улучшения качества рельсовой стали.</li>
                         </ul>
                     </div>
                     <div>
-                        <h2>НИТУ “Московский Институт Стали и Сплавов“</h2>
-                        <h3>2007 - 2011 Бакалавриат</h3>
+                        <h2 class="institute">НИТУ “Московский Институт Стали и Сплавов“</h2>
+                        <h3 class="institute">2007 - 2011 Бакалавриат</h3>
                         <ul>
                             <li>Разработка улучшения футеровки ДС печи для плавки колесной стали.</li>
                         </ul>
@@ -168,17 +176,19 @@
             </div>
         </div>
         <div id="contacts">
-            <h1>Контакты</h1>
-            <div>
-                <div>
-                    <h2>Телефон:</h2>
-                    <h2>Электронная почта:</h2>
-                    <h2>Телеграмм:</h2>
+            <div class="contacts-title">
+               <h1>Контакты</h1> 
+            </div>
+            <div class="contacts-content">
+                <div class="contacts-content-title">
+                    <h2 class="phone-title">Телефон:</h2>
+                    <h2 class="email-title">Электронная почта:</h2>
+                    <h2 class="telegram-title">Телеграмм:</h2>
                 </div>
-                <div>
-                    <h4>(99891)010-17-11</h4>
-                    <h4>bukharov.dilmurod@yandex.ru</h4>
-                    <h4>@dilmurodbukharov</h4>
+                <div class="contacts-content-info">
+                    <h3 class="phone">(99891)010-17-11</h3>
+                    <h3 class="email">bukharov.dilmurod@yandex.ru</h3>
+                    <h3 class="telegram">@dilmurodbukharov</h3>
                 </div>
             </div>
         </div>

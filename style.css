@@ -160,6 +160,8 @@ a {
 /* PICTURE-LOGO */
 #image {
   display: none;
+}
+.matrix-image {
   background-image: url('matrix.jpg');
   background-attachment: fixed;
   background-size: cover;
@@ -168,8 +170,16 @@ a {
 .logo-image {
   display: flex;
   justify-content: center;
+  align-items: center;
+  
 }
 
+
+@media (max-width: 2700px) {
+  .desktop-image {
+    width: 800px;
+  }
+}
 @media (max-width: 1700px) {
   .desktop-image {
     width: 400px;
@@ -216,10 +226,83 @@ a {
 #projects {
   margin-bottom: 70px;
 }
+.projects-title {
+  display: flex;
+  justify-content: center;
+}
+.tic-tac-toe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tic-tac-toe-icon {
+  display: flex;
+  justify-content: center;
+}
+.trivia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trivia-icon {
+  display: flex;
+  justify-content: center;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-icon {
+  display: flex;
+  justify-content: center;
+}
 
 
-
-
+@media (max-width: 2700px) {
+.tic-tac-toe {
+  margin: 0 100px;
+}
+.trivia {
+  margin: 0 100px;
+}
+.portfolio {
+  margin: 0 100px;
+}
+}
+@media (max-width: 2200px) {
+.tic-tac-toe {
+  margin: 0 80px;
+}
+.trivia {
+  margin: 0 80px;
+}
+.portfolio {
+  margin: 0 80px;
+}
+}
+@media (max-width: 1200px) {
+.tic-tac-toe {
+  margin: 0 40px;
+}
+.trivia {
+  margin: 0 40px;
+}
+.portfolio {
+  margin: 0 40px;
+}
+}
+@media (max-width: 700px) {
+.tic-tac-toe {
+  margin: 0 20px;
+}
+.trivia {
+  margin: 0 20px;
+}
+.portfolio {
+  margin: 0 20px;
+}
+}
 
 
 
@@ -235,44 +318,114 @@ a {
   align-items: center;
   margin: 10px 170px;
 }
-
 .resume-about {
   display: flex;
   justify-content: space-between;
 }
-
 .resume-about-title {
   width:30%;
 }
-
 .resume-about-content {
   width:60%;
 }
-
 .resume-experience {
   display: flex;
   justify-content: space-between;
 }
-
 .resume-experience-title {
   width: 30%;
 }
-
 .resume-experience-content {
   width: 60%;
 }
-
 .resume-education {
   display: flex;
   justify-content: space-between;
 }
-
 .resume-education-title {
   width: 30%;
 }
-
 .resume-education-content {
   width: 60%;
+}
+
+@media (max-width: 2700px) {
+  .resume-header {
+    margin: 0 300px;
+  }
+}
+@media (max-width: 2000px) {
+  .resume-header {
+    margin: 0 200px;
+  }
+}
+@media (max-width: 1300px) {
+  .resume-header {
+    margin: 0 100px;
+  }
+  .institute {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1000px) {
+  .resume-header {
+    margin: 0 70px;
+  }
+  .institute {
+    font-size: 17px;
+  }
+}
+@media (max-width: 700px) {
+  .resume-header {
+    margin: 0 30px;
+  }
+  .my-name {
+    font-size: 17px;
+  }
+  .profession {
+    font-size: 12px;
+  }
+  .institute {
+    font-size: 12px;
+  }
+  .resume-section-title {
+    font-size: 12px;
+  }
+  .resume-job-place {
+    font-size: 12px;
+  }
+  .resume-job-duration {
+    margin: 2px 0;
+  }
+  .resume-job-title {
+    margin: 2px 0;
+  }
+}
+@media (max-width: 370px) {
+  .resume-header {
+    margin: 0 3px;
+  }
+  .my-name {
+    font-size: 17px;
+  }
+  .profession {
+    font-size: 12px;
+  }
+  .institute {
+    font-size: 12px;
+  }
+  .resume-section-title {
+    font-size: 12px;
+  }
+  .resume-job-place {
+    font-size: 12px;
+  }
+  .resume-job-duration {
+    margin: 2px 0;
+  }
+  .resume-job-title {
+    margin: 2px 0;
+  }
 }
 
 
@@ -280,6 +433,40 @@ a {
 /* CONTACTS */
 #contacts {
   display: none;
+}
+
+.contacts-title {
+  display: flex;
+  justify-content: center;
+}
+.contacts-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-content-info {
+  margin-left: 20px;
+}
+
+@media (max-width: 460px) {
+  .phone-title {
+    font-size: 12px;
+  }
+  .email-title {
+    font-size: 12px;
+  }
+  .telegram-title {
+    font-size: 12px;
+  }
+  .phone {
+    font-size: 11px;
+  }
+  .email {
+    font-size: 11px;
+  }
+  .telegram {
+    font-size: 11px;
+  }
 }
 
 
