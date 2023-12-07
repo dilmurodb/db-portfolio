@@ -35,9 +35,12 @@
                             <div class="bottom"></div>
                         </label>
                     <nav class="menu1">
-                        <a class="link1" href="#" onclick="showProjects('block')">Проекты</a>
+                        <!-- <a class="link1" href="#" onclick="showProjects('block')">Проекты</a>
                         <a class="link1" href="#" onclick="showResume('block')">Резюме</a>
-                        <a class="link1" href="#" onclick="showContacts('block')">Контакты</a>
+                        <a class="link1" href="#" onclick="showContacts('block')">Контакты</a> -->
+                        <li class="link1" onclick="showProjects('block')">Проекты</li>
+                        <li class="link1" onclick="showResume('block')">Резюме</li>
+                        <li class="link1" onclick="showContacts('block')">Контакты</li>
                     </nav>
                 </nav>
             </section> 
@@ -50,6 +53,11 @@
         </div>
     </header>
     <main>
+        <div id="image" >
+            <div class="logo-image">
+                <img src="image.png" alt="Матрица" class="desktop-image"/>
+            </div>
+        </div>
         <div id="projects">
             <h1>Проекты</h1>
             <h3>Крестики-Нолики</h3>
@@ -74,7 +82,7 @@
                 </a>
             </div>
         </div>
-        <div id="resume" style="display: none">
+        <div id="resume">
             <div class="resume-header">
                 <div class="resume-name">
                     <h1>Бухаров Дилмурод</h1>
@@ -159,23 +167,32 @@
                 </div>
             </div>
         </div>
-        <div id="contacts" style="display: none">
-            <h1>Место для контактов</h1>
-        </div>
-        <div id="image" style="display: none">
-            <img src="matrix.jpg" alt="Матрица" class="matrix-image"/>
+        <div id="contacts">
+            <h1>Контакты</h1>
+            <div>
+                <div>
+                    <h2>Телефон:</h2>
+                    <h2>Электронная почта:</h2>
+                    <h2>Телеграмм:</h2>
+                </div>
+                <div>
+                    <h4>(99891)010-17-11</h4>
+                    <h4>bukharov.dilmurod@yandex.ru</h4>
+                    <h4>@dilmurodbukharov</h4>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
         <div class="footer-box">
             <div class="github">
-                <a target="_blank" href="https://github.com/dilmurodb"><i class="fa-brands fa-github fa-bounce fa-2xl"></i></a>
+                <a target="_blank" href="https://github.com/dilmurodb"><i class="fa-brands fa-github fa-bounce fa-2xl" style="color: white;"></i></a>
             </div>
             <div class="linkedin">
-                <a target="_blank" href="https://www.linkedin.com/in/d-bukharov/"><i class="fa-brands fa-linkedin fa-bounce fa-2xl"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/d-bukharov/"><i class="fa-brands fa-linkedin fa-bounce fa-2xl" style="color: white;"></i></a>
             </div>
             <div class="telegram">
-                <a target="_blank" href="https://t.me/dilmurodbukharov"><i class="fa-brands fa-telegram fa-bounce fa-2xl"></i></a>
+                <a target="_blank" href="https://t.me/dilmurodbukharov"><i class="fa-brands fa-telegram fa-bounce fa-2xl" style="color: white;"></i></a>
             </div>
         </div>
     </footer>

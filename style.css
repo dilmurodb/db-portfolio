@@ -1,38 +1,40 @@
-body {
+/* body {
     background-color: lightgreen;
+} */
+
+
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .logo {
-    width: 70px;
-    border-radius: 50%;
-    flex-grow: 0;
+  width: 70px;
+  border-radius: 50%;
+  flex-grow: 0;
 }
 
 .nav {
-    flex-grow: 1;
-    /* display: none; */
+  flex-grow: 1;
 }
 
 .ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
 }
 
 .language {
-    flex-grow: 0;
+  flex-grow: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
-
 
 @media (max-width: 700px) {
   .nav {
@@ -43,91 +45,18 @@ a {
     justify-content: space-between;
     align-items: flex-start;
   }
-  .matrix-image {
-    width: 600px;
-  }
 }
+
 @media (min-width: 701px) {
   .container12 {
     display: none;
   }
-  .matrix-image {
-    width: 700px;
-  }
 }
 
 
-
-
-
-
-
-
-
-
-
-.resume-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px 70px;
-}
-
-
-.resume-about {
-  display: flex;
-  justify-content: space-between;
-}
-
-.resume-about-title {
-  width:30%;
-}
-
-.resume-about-content {
-  width:60%;
-}
-
-
-
-.resume-experience {
-  display: flex;
-  justify-content: space-between;
-}
-.resume-experience-title {
-  width: 30%;
-}
-.resume-experience-content {
-  width: 60%;
-}
-
-
-.resume-education {
-  display: flex;
-  justify-content: space-between;
-}
-.resume-education-title {
-  width: 30%;
-}
-.resume-education-content {
-  width: 60%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* HEADER-BUTERBROD */
 .link1 {
   color: #fff;
-  text-decoration: none;
 }
 
 .p-menu1{
@@ -135,9 +64,7 @@ a {
 }
 
 
-
-
-/* Hamburger */
+/* Buterbrod */
 .buterbrod1 {
   height: 45px;
   margin: 10px;
@@ -230,24 +157,64 @@ a {
 
 
 
-
-
-
-
-
-
-
-/* #odin {
+/* PICTURE-LOGO */
+#image {
   display: none;
+  background-image: url('matrix.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+.logo-image {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1700px) {
+  .desktop-image {
+    width: 400px;
+  }
+}
+/* @media (max-width: 1500px) {
+  .desktop-image {
+    width: 1260px;
+  }
+}
+@media (max-width: 1300px) {
+  .desktop-image {
+    width: 1060px;
+  }
 } */
+@media (max-width: 1100px) {
+  .desktop-image {
+    width: 600px;
+  }
+}
+/* @media (max-width: 900px) {
+  .desktop-image {
+    width: 660px;
+  }
+} */
+@media (max-width: 700px) {
+  .desktop-image {
+    width: 460px;
+  }
+}
+@media (max-width: 500px) {
+  .desktop-image {
+    width: 260px;
+  }
+}
+@media (max-width: 300px) {
+  .desktop-image {
+    width: 200px;
+  }
+}
 
 
-
-
-
-.tic-tac-toe {
-  margin: 50px;
-  align-self: center;
+/* Projects */
+#projects {
+  margin-bottom: 70px;
 }
 
 
@@ -257,20 +224,85 @@ a {
 
 
 
+/* Resume */
+#resume {
+  display: none;
+  margin-bottom: 70px;
+}
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 170px;
+}
+
+.resume-about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-about-title {
+  width:30%;
+}
+
+.resume-about-content {
+  width:60%;
+}
+
+.resume-experience {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-experience-title {
+  width: 30%;
+}
+
+.resume-experience-content {
+  width: 60%;
+}
+
+.resume-education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-education-title {
+  width: 30%;
+}
+
+.resume-education-content {
+  width: 60%;
+}
 
 
+
+/* CONTACTS */
+#contacts {
+  display: none;
+}
+
+
+
+
+
+
+/* FOOTER */
 .footer {
   height: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: green;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-box {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: red;
 }
 
 .github {
