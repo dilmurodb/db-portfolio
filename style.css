@@ -1,9 +1,5 @@
-body {
-    background-color: black;
-}
-
 :root {
-  --main-color: white;
+  --main-color: #000000;
 }
 
 /* HEADER */
@@ -31,6 +27,10 @@ header {
 
 .nav-li {
   color: var(--main-color);
+}
+
+.day-night-mode {
+  margin-right: 12px;
 }
 
 .language {

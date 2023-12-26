@@ -47,3 +47,25 @@ function showImage(block) {
     let elem4 = document.getElementById("image")
     elem4.style.display = block
 }
+
+
+
+const root_theme = document.querySelector(':root')
+const backgroundColor = document.querySelector('body')
+
+const lightBulbNight = document.querySelector('#night')
+const lightBulbDay = document.querySelector('#day')
+
+function changeToNightMode() {
+    root_theme.style.setProperty('--main-color', '#ffffff')
+    backgroundColor.style.setProperty('background-color', '#000000')
+    lightBulbNight.style.setProperty('color', '#ffffff')
+    lightBulbDay.style.setProperty('color', '#ffffff')
+}
+
+function changeToDayMode() {
+    root_theme.style.setProperty('--main-color', '#000000')
+    backgroundColor.style.setProperty('background-color', '#ffffff')
+    lightBulbNight.style.setProperty('color', '#000000')
+    lightBulbDay.style.setProperty('color', '#000000')
+}
