@@ -20,9 +20,9 @@
         <img src="picture.jpg" alt="Логотип" class="logo" onclick="showImage('block')">
         <nav class="nav">
             <ul class="ul">
-                <li onclick="showProjects('block')">Projects</li>
-                <li onclick="showResume('block')">Resume</li>
-                <li onclick="showContacts('block')">Contacts</li>
+                <li class="nav-li" onclick="showProjects('block')">Projects</li>
+                <li class="nav-li" onclick="showResume('block')">Resume</li>
+                <li class="nav-li" onclick="showContacts('block')">Contacts</li>
             </ul>
         </nav>
         <div class="container12">
@@ -60,33 +60,33 @@
         </div>
         <div id="projects">
             <div class="projects-title">
-              <h1>Projects</h1>  
+              <h1 class="projects-title-text">Projects</h1>  
             </div>
             <div class="tic-tac-toe">
-                <h3>Tic-Tac-Toe</h3>
-                <p>One of the first projects I worked on was created using HTML, CSS and JavaScript. The project is called Tic Tac Toe, the essence of the game is to be the first to mark three squares continuously (horizontally, vertically or diagonally). The game involves two players, one player marks the squares in red and the other in blue. Each player, in order to win, must simultaneously prevent the other from marking three boxes in succession while at the same time creating a comfortable position for himself.</p> 
+                <h3 class="tic-tac-toe-title">Tic-Tac-Toe</h3>
+                <p class="tic-tac-toe-text">One of the first projects I worked on was created using HTML, CSS and JavaScript. The project is called Tic Tac Toe, the essence of the game is to be the first to mark three squares continuously (horizontally, vertically or diagonally). The game involves two players, one player marks the squares in red and the other in blue. Each player, in order to win, must simultaneously prevent the other from marking three boxes in succession while at the same time creating a comfortable position for himself.</p> 
             </div>
             <div class="tic-tac-toe-icon">
                 <a href="https://dilmurodb.github.io/tic-tac/" target="_blank">
-                    <i class="fab fa-buromobelexperte fa-7x"></i>
+                    <i class="fab fa-buromobelexperte fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
             <div class="trivia">
-               <h3>Trivia</h3>
-                <p>The next project I created is called Trivia Game. This project also uses the programming language JavaScript, HTML and CSS. The essence of the game is to answer the questions correctly and score the maximum number of points. In order to start the game, you need to select a Trivia theme from the following options: Cinema, Music or Geography.</p> 
+               <h3 class="trivia-title">Trivia</h3>
+                <p class="trivia-text">The next project I created is called Trivia Game. This project also uses the programming language JavaScript, HTML and CSS. The essence of the game is to answer the questions correctly and score the maximum number of points. In order to start the game, you need to select a Trivia theme from the following options: Cinema, Music or Geography.</p> 
             </div>
             <div class="trivia-icon">
                 <a href="https://dilmurodb.github.io/trivia/" target="_blank">
-                    <i class="fas fa-book-open fa-7x"></i>
+                    <i class="fas fa-book-open fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
             <div class="portfolio">
-               <h3>Additional Portfolio site</h3>
-                <p>The last project on this page is my first portfolio website. It contains information about me, my contacts, projects that I created and my resume.</p> 
+               <h3 class="portfolio-title">Additional Portfolio site</h3>
+                <p class="portfolio-text">The last project on this page is my first portfolio website. It contains information about me, my contacts, projects that I created and my resume.</p> 
             </div>
             <div class="portfolio-icon">
                 <a href="https://dilmurodb.github.io/bukharov/index.html"   target="_blank">
-                    <i class="fa-solid fa-briefcase fa-7x"></i>
+                    <i class="fa-solid fa-briefcase fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
         </div>
@@ -97,15 +97,15 @@
                     <h3 class="profession">Web-developer</h3>
                 </div>
                 <div class="resume-contacts">
-                    <h5>(+99891)0101711</h5>
-                    <h5>bukharov.dilmurod@yandex.ru</h5>
-                    <h5>www.dbukharov.com</h5>
+                    <h5 class="resume-contacts-phone">(+99891)0101711</h5>
+                    <h5 class="resume-contacts-email">bukharov.dilmurod@yandex.ru</h5>
+                    <h5 class="resume-contacts-site">www.dbukharov.com</h5>
                 </div>
             </div>
             <hr/>
             <div class="resume-about">
                 <div class="resume-about-title"><h2 class="resume-section-title">About me</h2></div>
-                <div class="resume-about-content"><p>Developer with three years of experience in front-end technologies, with an increased interest in learning new programming languages, intellectually motivated and goal-oriented.</p></div>
+                <div class="resume-about-content"><p class="resume-about-content-text">Developer with three years of experience in front-end technologies, with an increased interest in learning new programming languages, intellectually motivated and goal-oriented.</p></div>
             </div>
             <div class="resume-experience">
                 <div class="resume-experience-title">
@@ -120,8 +120,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Finding projects online and creating websites depending on client requirements.</li>
-                                <li>Website development for small businesses.</li>
+                                <li class="resume-li">Finding projects online and creating websites depending on client requirements.</li>
+                                <li class="resume-li">Website development for small businesses.</li>
                             </ul>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Development of applications for use by IPA company employees, improvement of existing code.</li>
-                                <li>Updating licenses for using cloud technologies.</li>
+                                <li class="resume-li">Development of applications for use by IPA company employees, improvement of existing code.</li>
+                                <li class="resume-li">Updating licenses for using cloud technologies.</li>
                             </ul>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Website development using JavaScript, HTML5 and CSS3 technologies</li>
-                                <li>Website creation for store owners and small businesses</li>
+                                <li class="resume-li">Website development using JavaScript, HTML5 and CSS3 technologies</li>
+                                <li class="resume-li">Website creation for store owners and small businesses</li>
                             </ul>
                         </div>
                     </div>
@@ -162,14 +162,14 @@
                         <h2 class="institute">NUST “Moscow Institute of Steel and Alloys“</h2>
                         <h3 class="institute">2011 - 2013 Master's degree</h3>
                         <ul>
-                            <li>Development of technology for improving the quality of rail steel.</li>
+                            <li class="institute-li">Development of technology for improving the quality of rail steel.</li>
                         </ul>
                     </div>
                     <div>
                         <h2 class="institute">NUST “Moscow Institute of Steel and Alloys“</h2>
                         <h3 class="institute">2007 - 2011 Bachelor's degree</h3>
                         <ul>
-                            <li>Development of improved lining of the Arc Steel Furnace for melting wheel steel.</li>
+                            <li class="institute-li">Development of improved lining of the Arc Steel Furnace for melting wheel steel.</li>
                         </ul>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
         </div>
         <div id="contacts">
             <div class="contacts-title">
-               <h1>Contacts</h1> 
+               <h1 class="contacts-title-text">Contacts</h1> 
             </div>
             <div class="contacts-content">
                 <div class="contacts-content-title">

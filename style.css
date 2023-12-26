@@ -1,8 +1,10 @@
-/* body {
-    background-color: lightgreen;
-} */
+body {
+    background-color: black;
+}
 
-
+:root {
+  --main-color: white;
+}
 
 /* HEADER */
 header {
@@ -25,6 +27,10 @@ header {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+}
+
+.nav-li {
+  color: var(--main-color);
 }
 
 .language {
@@ -230,10 +236,19 @@ a {
   display: flex;
   justify-content: center;
 }
+.projects-title-text {
+  color: var(--main-color);
+}
 .tic-tac-toe {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.tic-tac-toe-title {
+  color: var(--main-color);
+}
+.tic-tac-toe-text {
+  color: var(--main-color)
 }
 .tic-tac-toe-icon {
   display: flex;
@@ -244,6 +259,12 @@ a {
   flex-direction: column;
   align-items: center;
 }
+.trivia-title {
+  color: var(--main-color);
+}
+.trivia-text {
+  color: var(--main-color)
+}
 .trivia-icon {
   display: flex;
   justify-content: center;
@@ -252,6 +273,12 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.portfolio-title {
+  color: var(--main-color);
+}
+.portfolio-text {
+  color: var(--main-color);
 }
 .portfolio-icon {
   display: flex;
@@ -318,6 +345,21 @@ a {
   align-items: center;
   margin: 10px 170px;
 }
+.my-name {
+  color: var(--main-color);
+}
+.profession {
+  color: var(--main-color);
+}
+.resume-contacts-phone {
+  color: var(--main-color);
+}
+.resume-contacts-email {
+  color: var(--main-color);
+}
+.resume-contacts-site {
+  color: var(--main-color);
+}
 .resume-about {
   display: flex;
   justify-content: space-between;
@@ -325,8 +367,14 @@ a {
 .resume-about-title {
   width:30%;
 }
+.resume-section-title {
+  color: var(--main-color);
+}
 .resume-about-content {
   width:60%;
+}
+.resume-about-content-text {
+  color: var(--main-color);
 }
 .resume-experience {
   display: flex;
@@ -337,6 +385,24 @@ a {
 }
 .resume-experience-content {
   width: 60%;
+}
+.resume-job-place {
+  color: var(--main-color);
+}
+.resume-job-duration {
+  color: var(--main-color);
+}
+.resume-job-title {
+  color: var(--main-color);
+}
+.resume-li {
+  color: var(--main-color)
+}
+.institute {
+  color: var(--main-color)
+}
+.institute-li {
+  color: var(--main-color)
 }
 .resume-education {
   display: flex;
@@ -439,6 +505,9 @@ a {
   display: flex;
   justify-content: center;
 }
+.contacts-title-text {
+  color: var(--main-color);
+}
 .contacts-content {
   display: flex;
   justify-content: center;
@@ -446,6 +515,41 @@ a {
 }
 .contacts-content-info {
   margin-left: 20px;
+}
+
+/* @keyframes color-change {
+  0% {
+    color: red;
+  }
+  50% {
+    color: green;
+  }
+  100% {
+    color: blue;
+  }
+} */
+
+.phone-title {
+  /* animation: color-change 7s infinite; */
+  color: var(--main-color);
+}
+.email-title {
+  /* animation: color-change 7s infinite; */
+  color: var(--main-color);
+}
+.telegram-title {
+  /* animation: color-change 7s infinite; */
+  color: var(--main-color);
+}
+
+.phone {
+  color: var(--main-color);
+}
+.email {
+  color: var(--main-color);
+}
+.telegram {
+  color: var(--main-color);
 }
 
 @media (max-width: 460px) {

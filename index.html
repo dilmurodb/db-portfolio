@@ -20,9 +20,9 @@
         <img src="picture.jpg" alt="Логотип" class="logo" onclick="showImage('block')">
         <nav class="nav">
             <ul class="ul">
-                <li onclick="showProjects('block')">Проекты</li>
-                <li onclick="showResume('block')">Резюме</li>
-                <li onclick="showContacts('block')">Контакты</li>
+                <li class="nav-li" onclick="showProjects('block')">Проекты</li>
+                <li class="nav-li" onclick="showResume('block')">Резюме</li>
+                <li class="nav-li" onclick="showContacts('block')">Контакты</li>
             </ul>
         </nav>
         <div class="container12">
@@ -60,33 +60,33 @@
         </div>
         <div id="projects">
             <div class="projects-title">
-              <h1>Проекты</h1>  
+              <h1 class="projects-title-text">Проекты</h1>  
             </div>
             <div class="tic-tac-toe">
-                <h3>Крестики-Нолики</h3>
-                <p>Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p> 
+                <h3 class="tic-tac-toe-title">Крестики-Нолики</h3>
+                <p class="tic-tac-toe-text">Один из первых проектов над которым я работал был создан с помощью HTML, CSS и JavaScript. Проект называется Крестики-нолики, суть игры заключается в том чтобы первым отметить три квадратика непрерывно (по горизонтали, по вертикали или по диогонали). В игре участвуют два игрока, один игрок отмечает квадратики красным а другой синим. Каждый игрок для того чтобы выиграть должен одновременно пресикать возможность другого отметить три квадратика последовательно в то же время создавая удобную позицию для себя.</p> 
             </div>
             <div class="tic-tac-toe-icon">
                 <a href="https://dilmurodb.github.io/tic-tac/" target="_blank">
-                    <i class="fab fa-buromobelexperte fa-7x"></i>
+                    <i class="fab fa-buromobelexperte fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
             <div class="trivia">
-               <h3>Тривиа игра</h3>
-                <p>Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p> 
+               <h3 class="trivia-title">Тривиа игра</h3>
+                <p class="trivia-text">Следующий проект созданный мной называется Тривиа Игра. В этом проекте так же использованы язык программирования JavaScript, HTML и CSS. Суть игры заключается в том чтобы ответить на вопросы правильно и набрать максимальное количество баллов. Для того чтобы начать игру надо выбрать тему Тривиа из следующих вариантов: Кино, Музыка или География.</p> 
             </div>
             <div class="trivia-icon">
                 <a href="https://dilmurodb.github.io/trivia/" target="_blank">
-                    <i class="fas fa-book-open fa-7x"></i>
+                    <i class="fas fa-book-open fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
             <div class="portfolio">
-               <h3>Дополнительное Портфолио</h3>
-                <p>Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p> 
+               <h3 class="portfolio-title">Дополнительное Портфолио</h3>
+                <p class="portfolio-text">Последний проект на этой странице мой первый сайт портфолио. В нем есть информация обо мне, мои контакты, проекты которые я создавал и мое резюме.</p> 
             </div>
             <div class="portfolio-icon">
                 <a href="https://dilmurodb.github.io/bukharov/index.html"   target="_blank">
-                    <i class="fa-solid fa-briefcase fa-7x"></i>
+                    <i class="fa-solid fa-briefcase fa-7x" style="color: var(--main-color)"></i>
                 </a>
             </div>
         </div>
@@ -97,15 +97,15 @@
                     <h3 class="profession">Программист-разработчик</h3>
                 </div>
                 <div class="resume-contacts">
-                    <h5>(+99891)0101711</h5>
-                    <h5>bukharov.dilmurod@yandex.ru</h5>
-                    <h5>www.dbukharov.com</h5>
+                    <h5 class="resume-contacts-phone">(+99891)0101711</h5>
+                    <h5 class="resume-contacts-email">bukharov.dilmurod@yandex.ru</h5>
+                    <h5 class="resume-contacts-site">www.dbukharov.com</h5>
                 </div>
             </div>
             <hr/>
             <div class="resume-about">
                 <div class="resume-about-title"><h2 class="resume-section-title">Обо мне</h2></div>
-                <div class="resume-about-content"><p>Разработчик с трех летним стажем работы на фронт-энд технологиях, с повышенным интересом к изучению новых языков программирования, интеллектуально мотивированный и целеустремленный.</p></div>
+                <div class="resume-about-content"><p class="resume-about-content-text">Разработчик с трех летним стажем работы на фронт-энд технологиях, с повышенным интересом к изучению новых языков программирования, интеллектуально мотивированный и целеустремленный.</p></div>
             </div>
             <div class="resume-experience">
                 <div class="resume-experience-title">
@@ -120,8 +120,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Нахождение проектов онлайн и создание сайтов в зависимости от требований клиентов.</li>
-                                <li>Создание сайтов для малого бизнеса.</li>
+                                <li class="resume-li">Нахождение проектов онлайн и создание сайтов в зависимости от требований клиентов.</li>
+                                <li class="resume-li">Создание сайтов для малого бизнеса.</li>
                             </ul>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Разработка приложений для пользования работников компании IPA, улучшение существующего кода.</li>
-                                <li>Обновление лицензий пользования клауд технологиями.</li>
+                                <li class="resume-li">Разработка приложений для пользования работников компании IPA, улучшение существующего кода.</li>
+                                <li class="resume-li">Обновление лицензий пользования клауд технологиями.</li>
                             </ul>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
                         </div>
                         <div>
                             <ul>
-                                <li>Разработка веб-сайтов технологиями JavaScript, HTML5 и CSS3</li>
-                                <li>Создание сайтов для владельцов магазинов и небольшого бизнеса</li>
+                                <li class="resume-li">Разработка веб-сайтов технологиями JavaScript, HTML5 и CSS3</li>
+                                <li class="resume-li">Создание сайтов для владельцов магазинов и небольшого бизнеса</li>
                             </ul>
                         </div>
                     </div>
@@ -162,14 +162,14 @@
                         <h2 class="institute">НИТУ “Московский Институт Стали и Сплавов“</h2>
                         <h3 class="institute">2011 - 2013 Магистратура</h3>
                         <ul>
-                            <li>Разработка технологии улучшения качества рельсовой стали.</li>
+                            <li class="institute-li">Разработка технологии улучшения качества рельсовой стали.</li>
                         </ul>
                     </div>
                     <div>
                         <h2 class="institute">НИТУ “Московский Институт Стали и Сплавов“</h2>
                         <h3 class="institute">2007 - 2011 Бакалавриат</h3>
                         <ul>
-                            <li>Разработка улучшения футеровки ДС печи для плавки колесной стали.</li>
+                            <li class="institute-li">Разработка улучшения футеровки ДС печи для плавки колесной стали.</li>
                         </ul>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
         </div>
         <div id="contacts">
             <div class="contacts-title">
-               <h1>Контакты</h1> 
+               <h1 class="contacts-title-text">Контакты</h1> 
             </div>
             <div class="contacts-content">
                 <div class="contacts-content-title">
